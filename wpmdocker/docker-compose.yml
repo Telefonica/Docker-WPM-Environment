@@ -14,8 +14,8 @@ services:
        MYSQL_DATABASE: wordpress
        MYSQL_USER: root
        MYSQL_PASSWORD: mysqlroot
-       LATCHAPPID: EaFHR82FUYC7bnqy6WDK
-       LATCHSECRET: rUbmGc83FxjiJBKemkDQMtzwYA2QTwVWUsspZ9rG
+       LATCHAPPID: TypeYourWPMAppIDHere
+       LATCHSECRET: TypeYourWPMSecretIDHere
 
    wordpress:
      container_name: wpm
