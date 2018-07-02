@@ -46,7 +46,7 @@ sudo docker exec -it dbwpm ./install.sh
 8. Type the token (you can generate it from the Latch mobile application) when asked during the script execution to pair the new application created at step 1.
 
 
-9. To avoid any issue, close and open again the web browser before log in again Wordpress (localhost:8000) url.
+9. To avoid any issue, close and open the web browser before log in again to Wordpress (localhost:8000) url.
 
 
 10. Test the new WPM capabilities from the Latch mobille application.
