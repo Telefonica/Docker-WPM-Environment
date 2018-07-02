@@ -4,8 +4,11 @@ This PoC automatize all the steps in order to build a docker enviroment securize
 
 **Prerequisites**
 a) Your favorite Linux distro
+
 b) Docker: https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
 c) Docker Compose: https://docs.docker.com/compose/install/
+
 
 **Steps:**
 
