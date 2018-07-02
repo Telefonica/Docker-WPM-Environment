@@ -42,13 +42,13 @@ sudo docker exec -it dbwpm ./install.sh
 ```
 
 
-7. Type the token (you can generate it from the Latch mobile application) when asked during the script execution to pair the new application created at step 1.
+8. Type the token (you can generate it from the Latch mobile application) when asked during the script execution to pair the new application created at step 1.
 
 
-8 Test the new WPM capabilities from the Latch mobille application.
+9. Test the new WPM capabilities from the Latch mobille application.
 
 
-9 Enjoy!
+10. Enjoy!
 
 
 **PoC created by ElevenPaths**
