@@ -1,4 +1,4 @@
-## WordPress in Paranoid Mode, Docker edition (Linux)
+## Docker WordPress in Paranoid Mode Environment
 
 This PoC automatize all the steps in order to build a docker enviroment securized with Latch and all WordPress in Paranoid Mode scripts and triggers.
 
