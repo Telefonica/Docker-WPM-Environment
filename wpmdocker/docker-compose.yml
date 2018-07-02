@@ -1,0 +1,37 @@
+
+version: '2'
+
+services:
+   db:
+     container_name: dbwpm
+     image: mysqllatch
+     build: ./db
+     volumes:
+       - "db_data:/var/lib/mysql"
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: mysqlroot
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: root
+       MYSQL_PASSWORD: mysqlroot
+       LATCHAPPID: EaFHR82FUYC7bnqy6WDK
+       LATCHSECRET: rUbmGc83FxjiJBKemkDQMtzwYA2QTwVWUsspZ9rG
+
+   wordpress:
+     container_name: wpm
+     build: ./wp
+     depends_on:
+       - db
+     image: wplatch
+     #image: wordpress:latest
+     restart: always
+     volumes:
+       - ./wordpress:/var/www/html/wordpress 
+     ports:
+       - "8000:80"
+     environment:
+       WORDPRESS_DB_HOST: db:3306
+       WORDPRESS_DB_USER: root
+       WORDPRESS_DB_PASSWORD: mysqlroot
+volumes:
+    db_data:
