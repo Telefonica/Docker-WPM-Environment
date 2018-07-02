@@ -31,10 +31,11 @@ sudo docker-compose up
 5. Two docker containers should be created, **dbwpm** (mysql) and **wpm** (WordPress) 
 
 
-6. Open your current browser and open follwing URL:
+6. Open at your current browser the follwing URL and follow the steps to install WordPress normally:
 ```
-localhost:8000 and install WordPress
+localhost:8000
 ```
+
 
 7. Run the following command to install WPM in mysql container:
 ```
