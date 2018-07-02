@@ -1,5 +1,9 @@
 ## WordPress in Paranoid Mode, Docker edition (Linux)
 
+This PoC automatize all the steps in order to build a docker enviroment securized with Latch and all WordPress in Paranoid Mode scripts and triggers.
+
+**Steps:**
+
 1. Open your Latch developer account and create a new application. 
 
 
