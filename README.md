@@ -3,6 +3,7 @@
 This PoC automatize all the steps in order to build a docker enviroment securized with Latch and all WordPress in Paranoid Mode scripts and triggers.
 
 **Prerequisites**
+
 a) Your favorite Linux distro
 
 b) Docker: https://docs.docker.com/install/linux/docker-ce/ubuntu/
