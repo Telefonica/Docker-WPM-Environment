@@ -1,6 +1,14 @@
 ## Docker WordPress in Paranoid Mode Environment
 
-This PoC automatize all the steps in order to build a docker enviroment securized with Latch and all WordPress in Paranoid Mode scripts and triggers.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+This software doesn't have a QA Process. This software is a Proof of Concept.
+
+For more information please visit http://www.elevenpaths.com
+
+**About**
+
+This PoC automatize all the steps in order to build a docker enviroment securized with Latch and WordPress in Paranoid Mode (scripts and triggers).
 
 **Prerequisites**
 
@@ -55,5 +63,3 @@ sudo docker exec -it dbwpm ./install.sh
 11. Enjoy!
 
 
-**PoC created by ElevenPaths**
-https://www.elevenpaths.com/
