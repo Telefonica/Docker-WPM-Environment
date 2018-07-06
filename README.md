@@ -5,7 +5,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 This software doesn't have a QA Process. This software is a Proof of Concept.
 
 For more information please visit http://www.elevenpaths.com
-By IdeasLocas CDO Team
+
 
 **About**
 
@@ -64,3 +64,4 @@ sudo docker exec -it dbwpm ./install.sh
 11. Enjoy!
 
 
+By IdeasLocas CDO Team
