@@ -1,0 +1,31 @@
+services:
+  db:
+    container_name: dbwpm
+    build: ./db
+    volumes:
+      - db_data:/var/lib/postgresql
+    restart: always
+    expose:
+      - 5432
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+
+  wordpress:
+    container_name: wpm
+    build: ./wp
+    volumes:
+      - wp_data:/var/www/html
+    depends_on:
+      - db
+    restart: always
+    ports:
+      - 8000:80
+    environment:
+      LATCH_APP_ID: YOUR_LATCH_APP_ID_HERE
+      LATCH_SECRET: YOUR_LATCH_SECRET_HERE
+
+volumes:
+  db_data:
+  wp_data:
