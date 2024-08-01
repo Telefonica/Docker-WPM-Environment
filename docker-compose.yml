@@ -9,8 +9,10 @@ services:
       - 5432
     environment:
       POSTGRES_DB: postgres
-      POSTGRES_PASSWORD: postgres
       POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      LATCH_APP_ID: YOUR_LATCH_APP_ID_HERE
+      LATCH_SECRET: YOUR_LATCH_SECRET_HERE
 
   wordpress:
     container_name: wpm
@@ -22,9 +24,6 @@ services:
     restart: always
     ports:
       - 8000:80
-    environment:
-      LATCH_APP_ID: YOUR_LATCH_APP_ID_HERE
-      LATCH_SECRET: YOUR_LATCH_SECRET_HERE
 
 volumes:
   db_data:

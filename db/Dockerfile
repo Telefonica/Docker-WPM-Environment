@@ -1,5 +1,11 @@
-FROM postgres:15.7
+FROM postgres:14.2
 
-RUN apt update && apt install -y python3 python3-pip python3-requests postgresql-plpython3-15
+RUN apt update && apt install -y --no-install-recommends \
+    python3 \
+    python3-pip \
+    postgresql-plpython3-14 \
+    && rm -rf /var/lib/apt/lists/* \
+    && pip3 install --no-cache-dir latch-sdk-telefonica
 
-# COPY ./init.sql ./init.sql
+COPY triggers_template.sql triggers_template.sql
+COPY install.py install.py
