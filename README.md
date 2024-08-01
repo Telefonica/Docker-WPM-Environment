@@ -43,7 +43,7 @@ docker-compose up -d --build
 7. Run the following command to install WPM in PostgreSQL container (dbwpm):
 
 ```bah
-docker exec -it dbwpm ./install.sh
+docker exec -it dbwpm ./install.py
 ```
 
 8. Type the token (you can generate it from the Latch app) when asked during the script execution to pair the new application created at step 1.
